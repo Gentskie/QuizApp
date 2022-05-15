@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".hard">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/machingank"
+        android:text="DIFFICULT LEVEL"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif"
+        android:text="(Fill in the blanks)"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:gravity="center"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/btnq1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="02"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="03"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="04"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="05"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="06"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="07"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="08"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnq9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="09"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq10"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="10"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+    //question #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #1"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="By the use of different organs in breaking the food into small parts, your body can absorb the food appropriately. With regards to breaking, proteins break into _________."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a1"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #2"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="__________ is the only hormone that can be found in stomach."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a2"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #3"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="__________ regulates gastric acid, pancreatic bicarbonate, and osmoregulation."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a3"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #4"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="_____________ stimulates gastric and small intestine motility?"
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a4"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #5"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="________ main purpose is to tell your body when to make digestive juices and it signals your brain that you are hungry or full. "
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a5"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #6"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="The respiratory system works along with the ______________ system to distribute and remove gases in our body."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a6"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #7"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="The smaller branches that connects the bronchi and alveoli is known as _____________."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a7"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #8"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Respiratory _________ can be caused by unhealthy habits."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a8"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #9"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="____________ is the process of taking in gases to the body."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a9"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #10"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Blood is normally ____________in the lungs."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/a10"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Type Your Answer"
+                        android:gravity="center"
+                        android:imeOptions="actionSend"
+                        android:inputType="text"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/white"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CardView Correct
+    //QUESTION #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="By the use of different organs in breaking the food into small parts, your body can absorb the food appropriately. With regards to breaking, proteins break into AMINO ACID."
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="GASTRIN is the only hormone that can be found in stomach."
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="SECRETINE'S regulates gastric acid, pancreatic bicarbonate, and osmoregulation."
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="MOTILIN stimulates gastric and small intestine motility?"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="HORMONES main purpose is to tell your body when to make digestive juices and it signals your brain that you are hungry or full."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="The respiratory system works along with the CIRCULATORY system to distribute and remove gases in our body."
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="The smaller branches that connects the bronchi and alveoli is known as BROCHIOLES."
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Respiratory ILLNESSES/DESEASES can be caused by unhealthy habits."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="INHALATION is the process of taking in gases to the body."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Blood is normally NOT PRESENT in the lungs."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CardView Wrong
+    //CONSEQUENCE #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/chin1"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Bring your chin to your chest and then lift your head off the ground for about 2 inches. Do it for 10 times. It helps for the better chewing of food."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/tonguemouth2"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Place your tongue on the roof of your mouth and pressure on it, begin humming and make vibrating sound, this activity will activity the muscles in the mouth, do it for a few minutes. It helps to promote proper swallowing and chewing of food."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/openmouth3"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Open your mouth then exaggeratedly say “O” and then “E”. Repeat 15 times. It promotes proper and better movement of jaw when chewing."
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/eatcitrus4"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Eat at least 2 citrus fruits, citrus fruits are good sources of soluble fiber, which aids in digestion."
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/lemonwater5"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Drink a glass of lemon water; it promotes the movement of toxins out of the body."
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/wings6"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Flap your arms like the wings of a bird."
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/lockhand7"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Lock your hands from your back for 10 seconds."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/pullup8"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PULL UPs"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Do 5 pull-ups."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/chestforward9"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Stretch your chest outwards for 15 seconds."
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/relax10"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Relax your whole body for 30 seconds"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

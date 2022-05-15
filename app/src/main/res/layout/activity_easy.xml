@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".easy">
+
+    //question holder
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/machingank"
+        android:text="EASY LEVEL"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif"
+        android:text="(Multiple Choice)"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:gravity="center"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/btnq1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="02"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="03"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="04"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="05"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="06"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="07"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="08"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnq9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="09"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnq10"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="10"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/button_bg_color"
+                android:fontFamily="@font/abril_fatface"
+                android:text="01"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+
+
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+    //question #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #1"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="What organ is a finger-shaped pouch that is attached to the cecum?"
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+            
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:backgroundTint="#424242">
+
+               <com.google.android.material.circularreveal.CircularRevealGridLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:columnCount="2"
+                   android:rowCount="2">
+
+                   <Button
+                       android:id="@+id/abtn1"
+                       android:layout_width="157.5dp"
+                       android:layout_height="wrap_content"
+                       android:text="a. Liver"
+                       android:layout_marginTop="10dp"
+                       android:backgroundTint="#548235"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginBottom="10dp"/>
+                   <Button
+                       android:id="@+id/cbtn1"
+                       android:layout_width="157.5dp"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="c. Appendix"
+                       android:backgroundTint="#548235"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginBottom="10dp"/>
+                   <Button
+                       android:id="@+id/bbtn1"
+                       android:layout_width="157.5dp"
+                       android:layout_height="wrap_content"
+                       android:text="b. Mouth"
+                       android:backgroundTint="#548235"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginBottom="15dp"/>
+                   <Button
+                       android:id="@+id/dbtn1"
+                       android:layout_width="157.5dp"
+                       android:layout_height="wrap_content"
+                       android:text="d. anus"
+                       android:backgroundTint="#548235"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginBottom="15dp"/>
+
+               </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #2"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="What motion does mouth do break food into smaller part?"
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn2"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="a. Squeezing"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn2"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="c. chewing"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn2"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. mixing"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn2"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. flattening"
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #3"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="What organ is located at the lower end of the large intestine; it stores stool until it pushes out of anus?"
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn3"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="a. Rectum"
+                        android:backgroundTint="#548235"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn3"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Small intestine"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn3"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. esophagus"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn3"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Appendix"
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #4"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="What organ is considered as temporary storage of food, it mixes and breakdown food by contraction and relaxation of its layers."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn4"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="a. stomach"
+                        android:backgroundTint="#548235"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn4"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Small intestine"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn4"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. esophagus"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn4"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Appendix"
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #5"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="What organ does absorb water and changes the waste from liquid into stool?"
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn5"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="a. Rectum"
+                        android:backgroundTint="#548235"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn5"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Small intestine"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn5"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="b. esophagus"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn5"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. large intestine"
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #6"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="It is a hair-like lining that can be found in the nose. "
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn6"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="a. VIli"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn6"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Flagella "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn6"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. Cilia "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn6"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Filtrum "
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #7"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Sac-like organ that is the smallest of those belonging to the Respiratory System."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn7"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="a. Sacrum "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn7"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Alveoli "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn7"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. Tinus "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn7"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Filum "
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #8"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="It is the component of air that is needed by humans to live."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn8"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="a. Oxygen "
+                        android:backgroundTint="#548235"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn8"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Carbon dioxide "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn8"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="b. Nitrogen "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn8"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Nitrous oxide "
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #9"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="It is responsible for the expansion and contraction of the lungs."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn9"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="a. Diaphragm "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn9"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Mandible "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn9"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. Gluteus maximus "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn9"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Tongue "
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //question #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvq10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/machingank"
+                android:text="Question #10"
+                android:textColor="#548235"
+                android:textSize="25sp"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Apart from oxygen, what other kind of gas is major part of the respiratory system."
+                android:textColor="@color/black"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#424242">
+
+                <com.google.android.material.circularreveal.CircularRevealGridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/abtn10"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:text="a. Ozone "
+                        android:backgroundTint="#548235"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/cbtn10"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="c. Carbon dioxide "
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="14dp"/>
+                    <Button
+                        android:id="@+id/bbtn10"
+                        android:layout_width="157.5dp"
+                        android:layout_height="wrap_content"
+                        android:text="b. Nitrous oxide"
+                        android:backgroundTint="#548235"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="14dp"/>
+
+                    <Button
+                        android:id="@+id/dbtn10"
+                        android:layout_width="157.5dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="#548235"
+                        android:text="d. Methane"
+                        android:textSize="14dp"/>
+
+                </com.google.android.material.circularreveal.CircularRevealGridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CardView Correct
+    //QUESTION #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/appendix"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C. APPENDIX"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="it is found on the right side of abdomen, and is connected to colon. Its exact physiological function is not clear."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/chewing2"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C. CHEWING"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="is the process by which food is crushed and ground by teeth."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/rectum3"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. RECTUM"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="the rectum pushes stool out of anus during a bowel movement."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/stomach4"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. STOMACH"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="there are two motilities that occur in stomach; peristalsis (contractions) and segmentation (mixing)"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/large_intestine5"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D. LARGE INTESTINE"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="absorption of water occurs by osmosis, water diffuses in response to an osmotic gradient established by absorption of electrolytes. Sodium is actively absorbed in the colon by sodium channels."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/cilia6"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B. CILIA"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="a short microscopic hairlike vibrating structure found in large numbers on the surface of certain cells, either causing currents in the surrounding fluid, or, in some protozoans and other small organisms, providing propulsion."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/alveoli7"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C. ALVIEOLI"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="are tiny air sacs in your lungs that take up the oxygen you breathe in and keep your body going."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/oxygen8"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. OXYGEN"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="is a colourless gas that exists in large quantities in the air. All plants and animals need oxygen in order to live."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/diaphragm9"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. DIAPHRAGM"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="is a thin skeletal muscle that sits at the base of the chest and separates the abdomen from the chest. It contracts and flattens when you inhale. This creates a vacuum effect that pulls air into the lungs. When you exhale, the diaphragm relaxes and the air is pushed out of lungs."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //QUESTION #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvc10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F2A9D18E"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/carbon_dioxide10"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. CARBON DIOXIDE"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="a colorless, odorless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air (about 0.03 percent) and is absorbed by plants in photosynthesis."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/obtn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CardView Wrong
+    //CONSEQUENCE #1
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/walk1"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WALK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Walk for 1 minute, it stimulates the intestinal contractility, which helps in pushing of stool through the colon."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #2
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sit_ups2"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIT-UPS"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Do at least 8 to 12 sit-ups, movement of muscles in abdomen strengthen the bowel movement and intestines."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #3
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/child_pose3"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHILD POSE"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Do a child’s pose yoga for five minutes, it helps in stretching and relaxing the abdominal muscles and it avoids problems, such as bloating and acidity."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #4
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/breath4"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BREATHING"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Breathing exercise, sit up straight and practice breathing deeply and slowly, inhale and exhale for five minutes, it helps in problem like bloating."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #5
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/drink5"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DRINK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Drink 2 glasses of water; it is a great way to regulate digestion, also helps in colon cleansing."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #6
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/jumping_jack7"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUMPING JACK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Do 5 jumping jacks"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #7
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/hold_breath6"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOLD BREATH"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Hold your breath for ten seconds three times with a 5 second interval each."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #8
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/plank8"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PLANK"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Plank for 30 seconds"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #9
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw9"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/jogging9"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JOGGING"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Jog for 30 seconds"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    //CONSEQUENCE #10
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw10"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F4B183"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wrong10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/inhale_exhale10"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BREATH"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Walk for 1 minute, it stimulates the intestinal contractility, which helps in pushing of stool through the colon."
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/timmana"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/cont10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="continue"
+                android:backgroundTint="#C55A11"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

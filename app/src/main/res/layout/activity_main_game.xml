@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hand_painted_cartoon_education_training"
+    tools:context=".main_game"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btneasy"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="@font/abril_fatface"
+        android:text="easy level"
+        android:textColor="#548235"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnaverage"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="@font/abril_fatface"
+        android:text="average level"
+        android:textColor="#548235"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnhard"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#D9D9D9"
+        android:fontFamily="@font/abril_fatface"
+        android:text="difficult level"
+        android:textColor="#548235"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
